@@ -1,0 +1,4 @@
+<template name="tempItem">
+  <view> 收件人：{{name}}</view>
+  <view> 联系方式：{{phone}}</view>
+</template>

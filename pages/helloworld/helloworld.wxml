@@ -1,2 +1,24 @@
-<view>Helloworld</view>
-<view>文件命名一致性</view>
+
+
+  <view class='title'>Helloworld</view>
+  <view>文件命名一致性</view>
+  <view>属性大小写敏感</view>
+  <view>{{message}}</view>
+  <text data-name="{{theName}}"></text>
+  <view hidden="{{flag?true:false}}">
+    hidden
+  </view>
+  <text>data-*:自定义属性</text>
+  <view>bind*/catch*:组建的事件</view>
+
+  <block wx:for="{{items}}" wx:for-item="item" wx:key="index">
+    <view>{{index}}:{{item.name}}</view>
+  </block>
+
+  <view>
+    <view wx:if='tt===1'>tt===1</view>
+    <view wx:elif='tt===2'>tt===2</view>
+    <view wx:else>tt===3</view>
+  </view>
+
+
