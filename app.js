@@ -1,4 +1,5 @@
 //app.js
+// 全局
 App({
   onLaunch: function () {
     // 展示本地存储能力
