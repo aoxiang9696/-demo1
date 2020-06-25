@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/wxstry/wxstry",
+    "pages/helloworld/helloworld",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/helloworld/helloworld",
-    "pages/template/template"
+    "pages/template/template",
+    "pages/event/event"
   ],
   "window": {
     "backgroundTextStyle": "light",
